@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 383118b332a9e43489487b30c6dcd88c, type: 3}
+  m_Name: ScanRoom
+  m_EditorClassIdentifier: 
+  stateId: ScanRoom
+  storyText: 'You look around the room. There is a door, and a mat by the door.
+
+
+    Press
+    1 to check the door.
+
+    Press 2 to examine the mat.'
+  feedbackText: 
+  nextStates:
+  - {fileID: 11400000, guid: 955ccec59a63bdb43a7e7b0d6996738d, type: 2}
+  - {fileID: 11400000, guid: 7de1af507267ea44a9b527458a1d3ccd, type: 2}
