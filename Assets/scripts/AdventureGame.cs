@@ -40,6 +40,10 @@ public class AdventureGame : MonoBehaviour
         }
 
     }
+
+    /**
+     * MoveState handles moving the player from one state to the next
+     * */
     private void moveState(State newState)
     {
         var feedback = "";
